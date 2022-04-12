@@ -49,7 +49,7 @@ GNB : 0.6845955249569707
 
 ```
 cnn_base：
- 			  precision    recall  f1-score   support
+ 	      precision    recall  f1-score   support
 
   legitimate       0.92      0.86      0.89     11541
     phishing       0.84      0.90      0.87      9375
