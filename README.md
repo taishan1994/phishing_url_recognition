@@ -48,7 +48,7 @@ GNB : 0.6845955249569707
 结果：
 
 ```
- cnn_base：
+cnn_base：
  precision    recall  f1-score   support
 
   legitimate       0.92      0.86      0.89     11541
