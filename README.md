@@ -5,11 +5,11 @@
 
 数据是从[https://github.com/ebubekirbbr/phishing_url_detection](https://github.com/ebubekirbbr/phishing_url_detection)下载来的，由于数据量太大，将small_dataset下的val.txt作为训练集，并重新对训练集进行划分为训练集和测试集。识别的方法采用两种方式，一种是基于定义的特征，利用机器学习的方法进行识别，另一种是将url视为每个字符构成的序列，使用深度学习的方法进行识别。<br>
 
-- process.py里面get_csv2()用于获取url及label。
+- process.py里面get_csv2()用于获取url及label
 - features.py里面是机器学习相关的特征
 - models.py里面是深度学习的相关模型
 
-# # 依赖
+# 依赖
 
 ```shell
 python==3.6
